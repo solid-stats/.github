@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Solid Games community
+    url: https://sg.zone
+    about: Questions, support, and general discussion happen in the community.
+  - name: Browse replays
+    url: https://sg.zone/replays
+    about: The source of the match data that Solid Stats processes.

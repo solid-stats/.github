@@ -1,0 +1,34 @@
+name: Bug report
+description: Report something that is wrong or broken in Solid Stats
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. The more detail you give, the faster it can be fixed.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the problem and what you expected to happen instead.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where?
+      description: Which app or page is affected?
+      placeholder: e.g. web match page, server-2 API, a specific replay/match reference
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See …
+  - type: textarea
+    id: context
+    attributes:
+      label: Replays, screenshots, logs
+      description: Attach the relevant replay reference, screenshots, or logs if you have them.
