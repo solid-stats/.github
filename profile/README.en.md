@@ -22,7 +22,7 @@ the Solid Games community plays.
 
 ## 🤖 Built entirely by AI agents
 
-Solid Stats is built end to end by AI agents running the **GSD workflow**: a phased process
+Solid Stats is built end to end by AI agents running the **[GSD](https://github.com/open-gsd/gsd-core)** workflow: a phased process
 of explore, spec, plan, execute, review, verify, ship. Humans set direction and approve;
 agents do the building. Every repository carries its own `.planning/` state, and shared
 engineering standards live in [`skills`](https://github.com/solid-stats/skills).

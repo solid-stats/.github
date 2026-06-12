@@ -3,10 +3,10 @@
 
 # Solid Stats
 
-**Статистика матчей сообщества [Solid Games](https://sg.zone) (ArmA 3).**
+**Статистика игр сообщества [Solid Games](https://sg.zone) (ArmA 3).**
 
 Solid Stats превращает записи миссий OCAP в честную статистику по игрокам за каждую
-операцию сообщества Solid Games.
+игру сообщества Solid Games.
 
 <sub>Независимый проект игрока. Не связан с администрацией [sg.zone](https://sg.zone).</sub>
 
@@ -22,7 +22,7 @@ Solid Stats превращает записи миссий OCAP в честну
 
 ## 🤖 Полностью на AI-агентах
 
-Solid Stats от и до разрабатывают AI-агенты по пошаговому процессу **GSD** (explore, spec,
+Solid Stats от и до разрабатывают AI-агенты по пошаговому процессу **[GSD](https://github.com/open-gsd/gsd-core)** (explore, spec,
 plan, execute, review, verify, ship). Люди задают направление и принимают результат, а всё
 строят агенты. У каждого репозитория свой каталог `.planning/`, а общие инженерные
 стандарты лежат в [`skills`](https://github.com/solid-stats/skills).
