@@ -14,7 +14,7 @@ Solid Stats превращает записи миссий OCAP в честну
 
 [Реплеи](https://sg.zone/replays) · [Сообщество](https://sg.zone/forum)
 
-<!-- TODO: добавить публичный URL сайта Solid Stats, когда выйдет V2, напр. · [Статистика](https://stats.sg.zone) -->
+<!-- TODO: добавить публичный URL сайта Solid Stats, когда он появится, например · [Статистика](https://stats.sg.zone) -->
 
 </div>
 
@@ -41,7 +41,7 @@ plan, execute, review, verify, ship). Люди задают направлени
 | Репозиторий | Стек | Зона ответственности |
 |------------|------|----------------------|
 | [`replays-fetcher`](https://github.com/solid-stats/replays-fetcher) | TypeScript | Находит OCAP-реплеи, хранит сырые объекты, пишет staging-записи ingest |
-| [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Детерминированный OCAP → версионированные артефакты статистики |
+| [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Детерминированно превращает OCAP в версионированные артефакты статистики |
 | [`server-2`](https://github.com/solid-stats/server-2) | TypeScript · Fastify | Источник правды: API, PostgreSQL, оркестрация задач, идентичность, модерация |
 | `web` | React · TanStack Start | Браузерный UI для просмотра статистики (приватный репозиторий) |
 | [`infrastructure`](https://github.com/solid-stats/infrastructure) | Kubernetes | Стейджинг-рантайм, бэкапы, операционные ранбуки |

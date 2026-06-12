@@ -14,7 +14,7 @@ the Solid Games community plays.
 
 [Replays](https://sg.zone/replays) · [Community](https://sg.zone/forum)
 
-<!-- TODO: add the public Solid Stats site URL once V2 ships, e.g. · [Statistics](https://stats.sg.zone) -->
+<!-- TODO: add the public Solid Stats site URL once it ships, e.g. · [Statistics](https://stats.sg.zone) -->
 
 </div>
 
@@ -41,7 +41,7 @@ A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 | Repository | Stack | Responsibility |
 |------------|-------|----------------|
 | [`replays-fetcher`](https://github.com/solid-stats/replays-fetcher) | TypeScript | Discovers OCAP replays, stores raw objects, writes ingest staging records |
-| [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Deterministic OCAP → versioned statistics artifacts |
+| [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Deterministically turns OCAP into versioned statistics artifacts |
 | [`server-2`](https://github.com/solid-stats/server-2) | TypeScript · Fastify | Source of truth: API, PostgreSQL, job orchestration, identity, moderation |
 | `web` | React · TanStack Start | Browser UI for exploring statistics (private repository) |
 | [`infrastructure`](https://github.com/solid-stats/infrastructure) | Kubernetes | Staging runtime, backups, operational runbooks |
