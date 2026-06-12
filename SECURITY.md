@@ -9,7 +9,7 @@ requests.**
 
 Instead, use **GitHub Private Vulnerability Reporting**: open the **Security** tab of the
 affected repository and click **Report a vulnerability**. If that is not available to you,
-contact the maintainers privately at `INSERT_CONTACT_EMAIL`.
+contact the maintainers privately at [aleksandr.afgan0r.pavlov@gmail.com](mailto:aleksandr.afgan0r.pavlov@gmail.com).
 
 Please include:
 
