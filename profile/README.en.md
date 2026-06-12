@@ -12,7 +12,7 @@ the Solid Games community plays.
 
 [Русский](README.md) · 🇬🇧 **English**
 
-[Community](https://sg.zone/forum) · [Replays](https://sg.zone/replays)
+[Replays](https://sg.zone/replays) · [Community](https://sg.zone/forum)
 
 <!-- TODO: add the public Solid Stats site URL once V2 ships, e.g. · [Statistics](https://stats.sg.zone) -->
 
