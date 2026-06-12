@@ -3,11 +3,10 @@
 
 # Solid Stats
 
-**The engineering home of the [Solid Games](https://sg.zone) ArmA 3 community.**
+**Match statistics for the [Solid Games](https://sg.zone) ArmA 3 community.**
 
-Solid Stats is the engineering side of the Solid Games community: the match-statistics
-platform and tooling its operations run on. It turns OCAP mission replays into fair,
-per-player statistics for every operation the community plays.
+Solid Stats turns OCAP mission replays into fair, per-player statistics for every operation
+the Solid Games community plays.
 
 [Русский](README.md) · 🇬🇧 **English**
 
@@ -26,13 +25,13 @@ of explore, spec, plan, execute, review, verify, ship. Humans set direction and 
 agents do the building. Every repository carries its own `.planning/` state, and shared
 engineering standards live in [`skills`](https://github.com/solid-stats/skills).
 
-## 📊 Flagship: the Solid Stats 2 platform
+## 📊 How it works
 
 A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 
-1. **Discovers** new replays and stores the raw data,
-2. **Parses** each replay into a compact, deterministic statistics artifact,
-3. **Promotes** it into canonical player records: identity, corrections, aggregates, bounty points,
+1. **Discovers** new replays and stores the raw data.
+2. **Parses** each replay into a compact, deterministic statistics artifact.
+3. **Builds** each player's lasting profile: merges their aliases into one identity, applies manual corrections, and tallies career totals and bounty.
 4. **Serves** it to the web UI so the community can explore who did what.
 
 ## 🧩 Repositories
@@ -43,14 +42,14 @@ A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 | [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Deterministic OCAP → versioned statistics artifacts |
 | [`server-2`](https://github.com/solid-stats/server-2) | TypeScript · Fastify | Source of truth: API, PostgreSQL, job orchestration, identity, moderation |
 | `web` | React · TanStack Start | Browser UI for exploring statistics (private repository) |
-| [`relay`](https://github.com/solid-stats/relay) | JavaScript | SG Stats Relay: relay for `sg.zone` with per-user tokens and an admin panel behind Authelia |
 | [`infrastructure`](https://github.com/solid-stats/infrastructure) | Kubernetes | Staging runtime, backups, operational runbooks |
 | [`plans`](https://github.com/solid-stats/plans) | planning | Product-level and strategic planning |
 | [`skills`](https://github.com/solid-stats/skills) | standards | Shared AI-agent engineering standards |
 
-> The current platform is Solid Stats 2, succeeding the original generation
+> The current generation is Solid Stats 2. The previous one
 > ([`server`](https://github.com/solid-stats/server),
-> [`sg-replay-parser`](https://github.com/solid-stats/sg-replay-parser)), which is no longer maintained.
+> [`sg-replay-parser`](https://github.com/solid-stats/sg-replay-parser),
+> [`relay`](https://github.com/solid-stats/relay)) is no longer maintained.
 
 ## 🛠️ Built with
 
@@ -61,5 +60,5 @@ TypeScript · Rust · React / TanStack Start · Fastify · PostgreSQL · RabbitM
 <div align="center">
 <sub>Maintained by <a href="https://github.com/Afgan0r">@Afgan0r</a> · part of the <a href="https://sg.zone">Solid Games</a> community</sub>
 <br>
-<sub>© 2026 Solid Stats. All rights reserved. Source-available for viewing, not for reuse (see <a href="https://github.com/solid-stats/.github/blob/master/LICENSE">LICENSE</a>).</sub>
+<sub>© 2026 Solid Stats. Licensed under <a href="https://github.com/solid-stats/.github/blob/master/LICENSE">MIT</a>: reuse freely, with attribution.</sub>
 </div>
