@@ -15,7 +15,7 @@ can reuse it freely as long as you keep the copyright and license notice.
 - **Report a bug** — open an issue with the *Bug report* template. Replay references,
   screenshots, and exact match details help enormously.
 - **Suggest an improvement** — open an issue with the *Feature request* template.
-- **Ask a question or get support** — reach the community at [sg.zone](https://sg.zone).
+- **Ask a question** — open a GitHub issue, or reach [@afgan0r on Telegram](https://t.me/afgan0r).
 
 ## Proposing a code change
 

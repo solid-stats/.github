@@ -8,6 +8,8 @@
 Solid Stats turns OCAP mission replays into fair, per-player statistics for every operation
 the Solid Games community plays.
 
+<sub>An independent, player-made project. Not affiliated with the sg.zone administration.</sub>
+
 [Русский](README.md) · 🇬🇧 **English**
 
 [Community](https://sg.zone) · [Replays](https://sg.zone/replays)
@@ -31,7 +33,7 @@ A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 
 1. **Discovers** new replays and stores the raw data.
 2. **Parses** each replay into a compact, deterministic statistics artifact.
-3. **Builds** each player's lasting profile: merges their aliases into one identity, applies manual corrections, and tallies career totals and bounty.
+3. **Builds** each player's profile: merges their aliases into one identity, applies manual corrections, and tallies career totals and bounty.
 4. **Serves** it to the web UI so the community can explore who did what.
 
 ## 🧩 Repositories
@@ -58,7 +60,7 @@ TypeScript · Rust · React / TanStack Start · Fastify · PostgreSQL · RabbitM
 ---
 
 <div align="center">
-<sub>Maintained by <a href="https://github.com/Afgan0r">@Afgan0r</a> · part of the <a href="https://sg.zone">Solid Games</a> community</sub>
+<sub>Maintained by <a href="https://github.com/Afgan0r">@Afgan0r</a></sub>
 <br>
 <sub>© 2026 Solid Stats. Licensed under <a href="https://github.com/solid-stats/.github/blob/master/LICENSE">MIT</a>: reuse freely, with attribution.</sub>
 </div>
