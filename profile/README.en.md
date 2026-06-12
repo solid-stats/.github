@@ -5,9 +5,9 @@
 
 **The engineering home of the [Solid Games](https://sg.zone) ArmA 3 community.**
 
-Solid Stats is the engineering side of the Solid Games community: a match-statistics
-platform and the tooling the community's operations run on. It turns OCAP mission
-replays into clean, fair, per-player statistics — for every operation.
+Solid Stats is the engineering side of the Solid Games community: the match-statistics
+platform and tooling its operations run on. It turns OCAP mission replays into fair,
+per-player statistics for every operation the community plays.
 
 [Русский](README.md) · 🇬🇧 **English**
 
@@ -21,19 +21,18 @@ replays into clean, fair, per-player statistics — for every operation.
 
 ## 🤖 Built entirely by AI agents
 
-Solid Stats is developed **end to end by AI agents** running the **GSD workflow** — a
-structured, phase-based process (explore → spec → plan → execute → review → verify → ship).
-Humans set direction and approve; agents do the building. Every repository carries its own
-`.planning/` state, and shared engineering standards live in
-[`skills`](https://github.com/solid-stats/skills).
+Solid Stats is built end to end by AI agents running the **GSD workflow**: a phased process
+of explore, spec, plan, execute, review, verify, ship. Humans set direction and approve;
+agents do the building. Every repository carries its own `.planning/` state, and shared
+engineering standards live in [`skills`](https://github.com/solid-stats/skills).
 
-## 📊 Flagship — the Solid Stats 2 platform
+## 📊 Flagship: the Solid Stats 2 platform
 
 A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 
 1. **Discovers** new replays and stores the raw data,
 2. **Parses** each replay into a compact, deterministic statistics artifact,
-3. **Promotes** it into canonical player records — identity, corrections, aggregates, bounty points,
+3. **Promotes** it into canonical player records: identity, corrections, aggregates, bounty points,
 4. **Serves** it to the web UI so the community can explore who did what.
 
 ## 🧩 Repositories
@@ -46,8 +45,8 @@ A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 | `web` | React · TanStack Start | Browser UI for exploring statistics (private repository) |
 | [`relay`](https://github.com/solid-stats/relay) | JavaScript | SG Stats Relay: relay for `sg.zone` with per-user tokens and an admin panel behind Authelia |
 | [`infrastructure`](https://github.com/solid-stats/infrastructure) | Kubernetes | Staging runtime, backups, operational runbooks |
-| [`plans`](https://github.com/solid-stats/plans) | — | Product-level and strategic planning |
-| [`skills`](https://github.com/solid-stats/skills) | — | Shared AI-agent engineering standards |
+| [`plans`](https://github.com/solid-stats/plans) | planning | Product-level and strategic planning |
+| [`skills`](https://github.com/solid-stats/skills) | standards | Shared AI-agent engineering standards |
 
 > The current platform is Solid Stats 2, succeeding the original generation
 > ([`server`](https://github.com/solid-stats/server),
@@ -62,5 +61,5 @@ TypeScript · Rust · React / TanStack Start · Fastify · PostgreSQL · RabbitM
 <div align="center">
 <sub>Maintained by <a href="https://github.com/Afgan0r">@Afgan0r</a> · part of the <a href="https://sg.zone">Solid Games</a> community</sub>
 <br>
-<sub>© 2026 Solid Stats. All rights reserved. Source-available for viewing, not for reuse — see <a href="https://github.com/solid-stats/.github/blob/master/LICENSE">LICENSE</a>.</sub>
+<sub>© 2026 Solid Stats. All rights reserved. Source-available for viewing, not for reuse (see <a href="https://github.com/solid-stats/.github/blob/master/LICENSE">LICENSE</a>).</sub>
 </div>
