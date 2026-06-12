@@ -32,7 +32,7 @@ engineering standards live in [`skills`](https://github.com/solid-stats/skills).
 A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 
 1. **Discovers** new replays and stores the raw data.
-2. **Parses** each replay into a compact, deterministic statistics artifact.
+2. **Parses** each replay into a compact, reproducible set of statistics.
 3. **Builds** each player's profile: merges their aliases into one identity, applies manual corrections, and tallies career totals and bounty.
 4. **Serves** it to the web UI so the community can explore who did what.
 
