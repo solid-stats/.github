@@ -12,7 +12,7 @@ Solid Stats превращает записи миссий OCAP в честну
 
 🇷🇺 **Русский** · [English](README.en.md)
 
-[Сообщество](https://sg.zone) · [Реплеи](https://sg.zone/replays)
+[Сообщество](https://sg.zone/forum) · [Реплеи](https://sg.zone/replays)
 
 <!-- TODO: добавить публичный URL сайта Solid Stats, когда выйдет V2, напр. · [Статистика](https://stats.sg.zone) -->
 
