@@ -40,13 +40,16 @@ A mission is played on the server and recorded by **OCAP**. Solid Stats then:
 
 | Repository | Stack | Responsibility |
 |------------|-------|----------------|
+| **Platform services (5)** | | |
 | [`replays-fetcher`](https://github.com/solid-stats/replays-fetcher) | TypeScript | Discovers OCAP replays, stores raw objects, writes ingest staging records |
 | [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Deterministically turns OCAP into versioned statistics artifacts |
 | [`server-2`](https://github.com/solid-stats/server-2) | TypeScript · Fastify | Source of truth: API, PostgreSQL, job orchestration, identity, moderation |
 | `web` | React · TanStack Start | Browser UI for exploring statistics (private repository) |
 | [`infrastructure`](https://github.com/solid-stats/infrastructure) | Kubernetes | Staging runtime, backups, operational runbooks |
+| **Supporting** | | |
 | [`plans`](https://github.com/solid-stats/plans) | planning | Product-level and strategic planning |
 | [`skills`](https://github.com/solid-stats/skills) | standards | Shared AI-agent engineering standards |
+| [`ts-toolchain`](https://github.com/solid-stats/ts-toolchain) | TypeScript | Shared TypeScript config for all repositories |
 
 > The current generation is Solid Stats 2. The previous one
 > ([`server`](https://github.com/solid-stats/server),

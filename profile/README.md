@@ -40,13 +40,16 @@ plan, execute, review, verify, ship). Люди задают направлени
 
 | Репозиторий | Стек | Зона ответственности |
 |------------|------|----------------------|
+| **Сервисы платформы (5)** | | |
 | [`replays-fetcher`](https://github.com/solid-stats/replays-fetcher) | TypeScript | Находит OCAP-реплеи, хранит сырые объекты, пишет staging-записи ingest |
 | [`replay-parser-2`](https://github.com/solid-stats/replay-parser-2) | Rust | Детерминированно превращает OCAP в версионированные артефакты статистики |
 | [`server-2`](https://github.com/solid-stats/server-2) | TypeScript · Fastify | Источник правды: API, PostgreSQL, оркестрация задач, идентичность, модерация |
 | `web` | React · TanStack Start | Браузерный UI для просмотра статистики (приватный репозиторий) |
 | [`infrastructure`](https://github.com/solid-stats/infrastructure) | Kubernetes | Стейджинг-рантайм, бэкапы, операционные ранбуки |
+| **Вспомогательные** | | |
 | [`plans`](https://github.com/solid-stats/plans) | планирование | Продуктовое и стратегическое планирование |
 | [`skills`](https://github.com/solid-stats/skills) | стандарты | Общие инженерные стандарты для AI-агентов |
+| [`ts-toolchain`](https://github.com/solid-stats/ts-toolchain) | TypeScript | Общий конфиг TypeScript для всех репозиториев |
 
 > Сейчас актуально поколение Solid Stats 2. Предыдущее
 > ([`server`](https://github.com/solid-stats/server),
